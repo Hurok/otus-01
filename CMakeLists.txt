@@ -9,7 +9,6 @@ find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 configure_file(version.h.in version.h)
 
 set(PROJECT_NAME_TEST ${PROJECT_NAME}_test)
-set(PROJECT_LIB_NAME ${PROJECT_NAME}_lib)
 set(SRC_H   lib.h)
 set(SRC_CPP lib.cpp)
 
